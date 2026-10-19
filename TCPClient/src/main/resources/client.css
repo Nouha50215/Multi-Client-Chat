@@ -1,0 +1,108 @@
+.root-pane {
+    -fx-background-color: #f4f6fa;
+    -fx-font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    -fx-font-size: 13px;
+}
+
+.title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1f2a44;
+}
+
+.muted {
+    -fx-text-fill: #6b7280;
+}
+
+.error {
+    -fx-text-fill: #c53030;
+    -fx-font-weight: bold;
+}
+
+.user-label {
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1f2a44;
+}
+
+.read-only-badge {
+    -fx-background-color: #fff4d6;
+    -fx-text-fill: #8a5a00;
+    -fx-font-weight: bold;
+    -fx-padding: 4 10 4 10;
+    -fx-background-radius: 12;
+    -fx-border-color: #f0c050;
+    -fx-border-radius: 12;
+}
+
+/* Online status indicator */
+.status-dot.online {
+    -fx-fill: #2e9d4f;
+}
+
+.status-dot.offline {
+    -fx-fill: #a0a7b4;
+}
+
+.status-label {
+    -fx-font-weight: bold;
+    -fx-text-fill: #2d3748;
+}
+
+/* Messages */
+.message-list {
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+    -fx-border-color: #d5dbe5;
+}
+
+.message-list .list-cell {
+    -fx-padding: 6 10 6 10;
+    -fx-text-fill: #1f2a44;
+}
+
+.message-list .list-cell.system-message {
+    -fx-text-fill: #6b7280;
+    -fx-font-style: italic;
+}
+
+.message-list .list-cell.own-message {
+    -fx-background-color: #e3efff;
+    -fx-font-weight: bold;
+}
+
+.message-list .list-cell.other-message {
+    -fx-background-color: #ffffff;
+}
+
+/* Buttons */
+.primary-button {
+    -fx-background-color: #2b6cb0;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 6;
+    -fx-padding: 8 16 8 16;
+    -fx-cursor: hand;
+}
+
+.primary-button:hover {
+    -fx-background-color: #245a93;
+}
+
+.leave-button {
+    -fx-background-color: #e53e3e;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 6;
+    -fx-padding: 8 16 8 16;
+    -fx-cursor: hand;
+}
+
+.leave-button:hover {
+    -fx-background-color: #c53030;
+}
+
+.text-area, .text-field {
+    -fx-background-radius: 6;
+    -fx-border-radius: 6;
+}
