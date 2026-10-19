@@ -1,0 +1,53 @@
+.root-pane {
+    -fx-background-color: #f4f6fa;
+    -fx-font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    -fx-font-size: 13px;
+}
+
+.title {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1f2a44;
+}
+
+.status-label {
+    -fx-text-fill: #4a5568;
+    -fx-font-weight: bold;
+}
+
+.status-dot {
+    -fx-stroke: #ffffff;
+    -fx-stroke-width: 1.5;
+}
+
+.section-title {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2d3748;
+}
+
+.log-area {
+    -fx-font-family: "Consolas", "Menlo", monospace;
+    -fx-font-size: 12px;
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+    -fx-border-color: #d5dbe5;
+}
+
+.log-area .content {
+    -fx-background-color: #ffffff;
+}
+
+.user-list {
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+    -fx-border-color: #d5dbe5;
+}
+
+.user-list .list-cell {
+    -fx-padding: 8 10 8 10;
+    -fx-text-fill: #1f2a44;
+    -fx-font-weight: bold;
+    -fx-border-color: transparent transparent #ffffff transparent;
+    -fx-border-width: 0 0 2 0;
+}
