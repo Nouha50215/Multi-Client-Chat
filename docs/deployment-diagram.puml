@@ -1,0 +1,39 @@
+@startuml deployment-diagram
+title Multi-Client Chat - Deployment Diagram
+
+node "Server machine\n<<device>>" as serverNode {
+  node "JVM 21+\n<<execution environment>>" as serverJvm {
+    artifact "TCPServer.jar" as serverJar
+    file "config.properties\n(server.port=3000)" as serverCfg
+  }
+}
+
+node "Client machine 1\n<<device>>" as c1 {
+  node "JVM 21+" as jvm1 {
+    artifact "TCPClient.jar" as jar1
+  }
+}
+
+node "Client machine 2\n<<device>>" as c2 {
+  node "JVM 21+" as jvm2 {
+    artifact "TCPClient.jar" as jar2
+  }
+}
+
+node "Client machine N\n<<device>>" as cn {
+  node "JVM 21+" as jvmn {
+    artifact "TCPClient.jar" as jarn
+  }
+}
+
+serverJar ..> serverCfg : reads at startup
+
+jar1 -- serverJar : TCP/IP\nport 3000
+jar2 -- serverJar : TCP/IP\nport 3000
+jarn -- serverJar : TCP/IP\nport 3000
+
+note right of serverJar
+  ServerSocket on port 3000
+  one virtual thread per client
+end note
+@enduml
