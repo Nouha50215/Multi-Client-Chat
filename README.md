@@ -1,6 +1,6 @@
 # Multi-Client Chat Application — Java Sockets (TCP) + JavaFX
 
-Mini Project 1 — Advanced Distributed Programming (Pr. El Habib Nfaoui)
+Project 1 — Advanced Distributed Programming (Pr. El Habib Nfaoui)
 
 A group chat in which one **TCPServer** relays messages between many **TCPClient** applications over TCP sockets. The server handles every client on its own **virtual thread**, and both programs have a **JavaFX** interface (GridPane + CSS).
 
@@ -119,10 +119,24 @@ PlantUML sources live in `docs/`. Render them in IntelliJ with the PlantUML plug
 - `deployment-diagram.puml`: the server node and client nodes, linked over TCP/IP
 - `sequence-diagram.puml`: the join → message → allUsers → leave flow
 
+## Screenshots
+
+### Server
+![Server](docs/screenshots/chat server.png)
+
+### Client 1
+![Client](docs/screenshots/chat client 1.png)
+
+### Client 2
+![Client](docs/screenshots/chat client 2.png)
+
+### Client 3
+#### (Read only)
+![Client](docs/screenshots/chat client 3.png)
+
 ## Demo video
 
-<!-- add your link here -->
 
 ## Authors
 
-<!-- your names -->
+Nouha Bitar
