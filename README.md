@@ -122,17 +122,17 @@ PlantUML sources live in `docs/`. Render them in IntelliJ with the PlantUML plug
 ## Screenshots
 
 ### Server
-![Server](docs/screenshots/chat server.png)
+![Server](docs/screenshots/chat-server.png)
 
 ### Client 1
-![Client](docs/screenshots/chat client 1.png)
+![Client](docs/screenshots/chat-client-1.png)
 
 ### Client 2
-![Client](docs/screenshots/chat client 2.png)
+![Client](docs/screenshots/chat-client-2.png)
 
 ### Client 3
 #### (Read only)
-![Client](docs/screenshots/chat client 3.png)
+![Client](docs/screenshots/chat-client-3.png)
 
 ## Demo video
 
