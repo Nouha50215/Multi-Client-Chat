@@ -138,6 +138,10 @@ PlantUML sources live in `docs/`. Render them in IntelliJ with the PlantUML plug
 
 https://alakhawayn365-my.sharepoint.com/:f:/g/personal/n_bitar_aui_ma/IgBKaLd0rxb3Qr-SqgLrX6B-Acp595-FrePkANyGUkifR2g?e=SoIzYd
 
+## Dev.to Publication
+
+https://dev.to/nouha50215/building-a-multi-client-chat-app-with-java-sockets-virtual-threads-and-javafx-53nk
+
 ## Authors
 
 Nouha Bitar
